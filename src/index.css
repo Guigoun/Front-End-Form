@@ -1,0 +1,97 @@
+/* Estilos globais para um tema inspirado no Google Forms */
+
+body {
+  font-family: 'Roboto', Arial, sans-serif; /* Fontes semelhantes ao Google Forms */
+  background-color: #ffffff; /* Fundo branco */
+  color: #333333; /* Texto em cinza escuro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333333; /* Cor de texto mais escura para o título */
+  font-size: 24px; /* Tamanho de fonte mais próximo */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px; /* Padding padrão */
+  margin-top: 8px; /* Espaçamento padrão entre label e input */
+  border: 1px solid #cccccc; /* Borda cinza clara */
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffffff; /* Fundo branco */
+  color: #333333; /* Texto em cinza escuro */
+}
+
+.input-group {
+  margin-bottom: 16px; /* Espaçamento entre grupos de input */
+}
+
+button {
+  background-color: #007bff; /* Azul similar ao do Google Forms */
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Azul mais escuro para hover */
+}
+
+.question-container {
+  margin-bottom: 16px;
+  padding: 15px;
+  border-radius: 4px; /* Borda menos arredondada */
+  background-color: rgba(214, 205, 205, 0.379); /* Fundo muito claro */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.feedback.error {
+  color: #f44336;
+}
+
+.result-summary {
+  margin-top: 16px;
+  text-align: left;
+  background-color: #ffffff; /* Fundo branco */
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+}
+
+.selected {
+  background-color: #e9ecef; /* Cor clara para seleção */
+  color: #333333;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #28a745; /* Verde similar ao Google Forms */
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838; /* Verde mais escuro para hover */
+}
