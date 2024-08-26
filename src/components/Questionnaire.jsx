@@ -49,12 +49,12 @@ const Questionnaire = () => {
     },
     {
       type: 'truefalse',
-      text: 'O HTML é uma linguagem de marcação?',
+      text: 'Em React, o hook `useState` é utilizado para gerenciar o estado em componentes funcionais.',
       correctAnswer: true,
     },
     {
       type: 'truefalse',
-      text: 'CSS é utilizado para lógica de programação?',
+      text: 'Os componentes de classe em React têm acesso ao hook `useEffect`.',
       correctAnswer: false,
     },
   ];
